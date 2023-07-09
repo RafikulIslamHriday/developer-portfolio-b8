@@ -20,7 +20,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 200px;
+  padding: 20px 150px;
 }
 .nav-title {
   font-size: 45px;
@@ -43,5 +43,49 @@
     text-decoration: none;
     color: #474747;
     font-size: 20px;
+    font-weight: 400;
+}
+
+/* landing page style */
+
+.header {
+    background: #FFF8F3;
+    background-image: url('images/header_bg.png') , url('images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right , center left;
+    
+
+    
+}
+.banner{
+    padding: 80px 50px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
+}
+ .profile-photo{
+    width: 500px;
+}
+.banner-greeting{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
     font-weight: 400;
 }
